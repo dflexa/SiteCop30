@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore o Pará na COP30</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+  <header>
+    <div class="menu-icon">&#9776;</div> <!-- ou qualquer ícone/menu -->
+    <button id="toggleModo" aria-label="Alternar modo escuro">🌓</button>
+    <div class="header-center">
+        <div class="nav-buttons">
+          <a href="#">Agenda</a>
+          <a href="#">Notícias</a>
+        </div>
+
+      <div class="logo-container">
+        <img class="logo" src="Imagens/image-800-c84913e8f477be1db5af0b92f7fed78a.png" alt="Logo COP30">
+      </div>
+      
+       <div class="nav-buttons">
+        <a href="#turpara">TurPará</a>
+        <a href="#tradutor-paraense">Tradutor Paraense</a>
+    </div>
+  </div>
+    <div class="user-icon">&#128100;</div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-texto">
+      <h1>Explore o Pará na <span class="cop30">COP30</span></h1>
+      <p>Viva a Amazônia de perto!</p>
+      <p>Conheça a cultura local, fale com tradutores regionais e acompanhe sua pegada de carbono.</p>
+      <p>Este portal é o seu guia para uma experiência autêntica, com apoio da comunidade e foco na sustentabilidade.</p>
+    </div>
+  
+    <div class="circle-image">
+      <img src="Imagens/gfgf.jpg" alt="Barco navegando pela Amazônia">
+    </div>
+  </section>
+  
+  
+
+  <section class="turpara reveal" id="turpara">
+    <div class="turpara-container">
+      <div class="turpara-texto">
+        <h2><span class="green">Viva</span> o Pará com o TurPará</h2>
+        <p>
+          Explore os principais destinos turísticos de Belém e do Pará durante a COP30. 
+          Conheça a cultura, história e gastronomia paraense com o apoio da comunidade local e viva uma experiência autêntica e sustentável.
+        </p>
+        <a href="trabalhadores.html" target="_blank" class="btn-turpara">TurPará</a>
+
+      </div>
+      <div class="turpara-imagens">
+        <a href="https://pt.wikipedia.org/wiki/C%C3%ADrio_de_Nazar%C3%A9" target="_blank" class="img-circulo borda-cirio">
+          <img src="Imagens/naza.jpg" alt="Círio de Nazaré">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Ver-o-Peso" target="_blank" class="img-circulo borda-veropeso">
+          <img src="Imagens/veropeso.jpg" alt="Ver-o-Peso">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Tacac%C3%A1" target="_blank" class="img-circulo borda-tacaca">
+          <img src="Imagens/tacaca.jpeg" alt="Tacacá">
+        </a>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section class="secao-terceira reveal" id="tradutor-paraense">
+    <div class="coluna-esquerda">
+        <div class="conteudo-tradutor">
+          <h2>
+            <span class="green">Entenda</span> o Pará com o Tradutor <span class="red">Paraense</span>
+          </h2>
+          <p class="subtitulo">
+            Viva a cultura paraense de forma autêntica!
+          </p>
+          <p>
+            Quebre barreiras linguísticas e culturais durante a COP30. Com o Tradutor Paraense, você tem acesso a gírias, costumes e expressões locais para se comunicar melhor com a população e aproveitar o evento de forma mais verdadeira.
+          </p>
+        </div>
+      </div>
+      
+      <div class="coluna-direita">
+        <h3>Tradutor Paraense</h3>
+      
+        <form class="tradutor-form">
+          <input type="text" placeholder="Digite uma gíria paraense" id="inputGiria" />
+          <button type="submit">Traduzir</button>
+        </form>
+      
+        <div class="girias-populares">
+            <button class="sugestao">Égua</button>
+            <button class="sugestao">Pai d’égua</button>
+            <button class="sugestao">Pitiú</button>
+            <button class="sugestao">Ulha</button>
+            <button class="sugestao">Têdoidé</button>
+          </div>
+      
+        <div class="traducao-resultado" id="resultado">
+          Digite uma gíria para ver a tradução.
+        </div>
+      
+        <h4>Histórico de Traduções:</h4>
+        <ul class="historico-traducoes" id="historico">
+          <!-- histórico será preenchido aqui -->
+        </ul>
+      </div>
+      
+  </section>
+  
+  <footer class="rodape">
+    <p><span class="green">Sustentabilidade</span> é prioridade na COP30.</p>
+    <p>Evite <span class="red">descarte irregular</span> durante o evento.</p>
+    <p>2025 COP 30 - Belém | Todos os direitos reservados</p>
+    
+
+  </footer>
+  <button id="btnTopo" aria-label="Voltar ao topo">⬆️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
